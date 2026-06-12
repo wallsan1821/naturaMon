@@ -1,0 +1,29 @@
+[
+  {
+    "nome": "Aquary",
+    "tipo": "AGUA",
+    "arquetipo": "SUPORTE",
+    "hpMaximo": 100,
+    "ataqueBase": 25,
+    "defesaBase": 20,
+    "velocidade": 40
+  },
+  {
+    "nome": "Flamix",
+    "tipo": "FOGO",
+    "arquetipo": "RAPIDA",
+    "hpMaximo": 90,
+    "ataqueBase": 35,
+    "defesaBase": 15,
+    "velocidade": 60
+  },
+  {
+    "nome": "Terron",
+    "tipo": "TERRA",
+    "arquetipo": "TANK",
+    "hpMaximo": 120,
+    "ataqueBase": 20,
+    "defesaBase": 40,
+    "velocidade": 20
+  }
+]
