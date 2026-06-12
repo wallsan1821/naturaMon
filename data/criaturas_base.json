@@ -1,7 +1,7 @@
 [
   {
     "nome": "Aquary",
-    "tipo": "AGUA",
+    "tipo": "Agua",
     "arquetipo": "SUPORTE",
     "hpMaximo": 100,
     "ataqueBase": 25,
@@ -10,7 +10,7 @@
   },
   {
     "nome": "Flamix",
-    "tipo": "FOGO",
+    "tipo": "Fogo",
     "arquetipo": "RAPIDA",
     "hpMaximo": 90,
     "ataqueBase": 35,
@@ -19,7 +19,7 @@
   },
   {
     "nome": "Terron",
-    "tipo": "TERRA",
+    "tipo": "Terra",
     "arquetipo": "TANK",
     "hpMaximo": 120,
     "ataqueBase": 20,
