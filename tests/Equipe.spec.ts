@@ -41,17 +41,18 @@ describe('Regras de Negócio: Equipe 3v3', () => {
     expect(equipe.estaDerrotada()).toBe(true);
   });
 
-  test('Pode trocar para uma criatura viva do banco', () => {
-    const c1 = criarCriatura('C1');
-    const c2 = criarCriatura('C2');
-    const c3 = criarCriatura('C3');
+test('Pode trocar para uma criatura viva do banco', () => {
+  const c1 = criarCriatura('C1');
+  const c2 = criarCriatura('C2');
+  const c3 = criarCriatura('C3');
+  const adversario = criarCriatura('Inimigo');
 
-    const equipe = new Equipe([c1, c2, c3]);
+  const equipe = new Equipe([c1, c2, c3]);
 
-    equipe.trocarPara(1);
+  equipe.trocarPara(1, adversario);
 
-    expect(equipe.criaturaAtiva).toBe(c2);
-  });
+  expect(equipe.criaturaAtiva).toBe(c2);
+});
 
   test('Não pode trocar para uma criatura derrotada', () => {
     const c1 = criarCriatura('C1');
@@ -62,6 +63,8 @@ describe('Regras de Negócio: Equipe 3v3', () => {
 
     c2.receberDano(999);
 
-    expect(() => equipe.trocarPara(1)).toThrow('Troca inválida.');
+    const adversario = criarCriatura('Inimigo');
+
+  expect(() => equipe.trocarPara(1, adversario)).toThrow('Troca inválida.');
   });
 });
