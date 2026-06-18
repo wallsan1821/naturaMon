@@ -37,10 +37,15 @@ export class Equipe {
     return true;
   }
 
-  public trocarPara(indice: number): void {
+  public trocarPara(indice: number, criaturaAdversaria: Criatura): void {
     if (!this.podeTrocarPara(indice)) {
       throw new Error('Troca inválida.');
     }
+
+    const criaturaSaindo = this.criaturaAtiva;
+    const criaturaEntrando = this.criaturas[indice]!;
+
+    criaturaSaindo.aoSairDaArena(criaturaEntrando, criaturaAdversaria);
 
     this.indiceAtiva = indice;
   }
