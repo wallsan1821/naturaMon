@@ -3,27 +3,81 @@
     "nome": "Aquary",
     "tipo": "Agua",
     "arquetipo": "SUPORTE",
-    "hpMaximo": 100,
+    "hpMaximo": 103,
     "ataqueBase": 25,
     "defesaBase": 20,
-    "velocidade": 40
+    "velocidade": 43
+  },
+  {
+    "nome": "Perceus",
+    "tipo": "Agua",
+    "arquetipo": "RAPIDA",
+    "hpMaximo": 96,
+    "ataqueBase": 35,
+    "defesaBase": 15,
+    "velocidade": 62
+  },
+  {
+    "nome": "Abbys",
+    "tipo": "Agua",
+    "arquetipo": "TANK",
+    "hpMaximo": 125,
+    "ataqueBase": 20,
+    "defesaBase": 40,
+    "velocidade": 22
+  },
+  {
+    "nome": "Hestia",
+    "tipo": "Fogo",
+    "arquetipo": "SUPORTE",
+    "hpMaximo": 97,
+    "ataqueBase": 28,
+    "defesaBase": 20,
+    "velocidade": 43
   },
   {
     "nome": "Flamix",
     "tipo": "Fogo",
     "arquetipo": "RAPIDA",
-    "hpMaximo": 90,
-    "ataqueBase": 35,
+    "hpMaximo": 87,
+    "ataqueBase": 40,
     "defesaBase": 15,
-    "velocidade": 60
+    "velocidade": 65
+  },
+  {
+    "nome": "Vulcanon",
+    "tipo": "Fogo",
+    "arquetipo": "TANK",
+    "hpMaximo": 117,
+    "ataqueBase": 23,
+    "defesaBase": 37,
+    "velocidade": 20
+  },
+  {
+    "nome": "Diamond",
+    "tipo": "Terra",
+    "arquetipo": "SUPORTE",
+    "hpMaximo": 105,
+    "ataqueBase": 25,
+    "defesaBase": 23,
+    "velocidade": 35
+  },
+  {
+    "nome": "Tremor",
+    "tipo": "Terra",
+    "arquetipo": "RAPIDA",
+    "hpMaximo": 95,
+    "ataqueBase": 35,
+    "defesaBase": 20,
+    "velocidade": 57
   },
   {
     "nome": "Terron",
     "tipo": "Terra",
     "arquetipo": "TANK",
-    "hpMaximo": 120,
+    "hpMaximo": 130,
     "ataqueBase": 20,
-    "defesaBase": 40,
-    "velocidade": 20
+    "defesaBase": 45,
+    "velocidade": 15
   }
 ]
