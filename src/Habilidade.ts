@@ -2,6 +2,7 @@ export enum TipoElemental {
   Fogo = 'Fogo',
   Agua = 'Agua',
   Terra = 'Terra',
+  Normal = 'Normal',
 }
 
 export interface IHabilidade {

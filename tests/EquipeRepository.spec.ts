@@ -72,7 +72,8 @@ describe('EquipeRepository: persistência do estado da equipe', () => {
 
   test('carregar() restaura o indiceAtiva salvo', () => {
     const equipe = montarEquipe();
-    equipe.trocarPara(2);
+    const adversario = criarCriatura('Inimigo');
+    equipe.trocarPara(2, adversario);
 
     repo.salvar(idTeste, equipe);
 
