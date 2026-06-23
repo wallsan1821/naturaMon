@@ -20,21 +20,13 @@ export class CriaturaRepository {
         return criaturasProntas;
     }
 
-    /**
-     * Busca uma única criatura base pelo nome (case-insensitive).
-     * Útil na hora de montar uma equipe escolhendo criaturas específicas.
-     * retorna A instância encontrada, ou undefined se não existir.
-     */
+    
     public buscarPorNome(nome: string): Criatura | undefined {
         return this.carregarCriaturasBase().find(
             (c) => c.nome.toLowerCase() === nome.toLowerCase()
         );
     }
 
-    /**
-     * Filtra as criaturas base por tipo elemental (ex: "Fogo", "Agua", "Terra").
-     * retorna Array com todas as criaturas daquele tipo.
-     */
     public buscarPorTipo(tipo: string): Criatura[] {
         return this.carregarCriaturasBase().filter(
             (c) => c.tipo.toLowerCase() === tipo.toLowerCase()
